@@ -1,0 +1,31 @@
+{
+  "name": "rest-mongo-rest",
+  "version": "1.0.0",
+  "description": "Exposes MongoDB collections over a REST interface to retrieve, update, save or delete documents over HTTP or HTTPS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shyam-dasgupta/rest-mongo-rest.git"
+  },
+  "keywords": [
+    "mongo",
+    "mongodb",
+    "rest"
+  ],
+  "author": "Shyam Dasgupta",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/shyam-dasgupta/rest-mongo-rest/issues"
+  },
+  "homepage": "https://github.com/shyam-dasgupta/rest-mongo-rest#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "mongo-qbuilder": "^1.0.1",
+    "mongodb": "^3.0.4",
+    "multer": "^1.3.0",
+    "utils-data": "^1.0.2"
+  }
+}
